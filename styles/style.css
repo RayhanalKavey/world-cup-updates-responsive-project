@@ -48,7 +48,6 @@ Hero Section
 .hero-info {
   width: 50%;
   margin-bottom: 112px;
-  /* border: 2px solid rgb(196, 131, 131); */
 }
 .hero-info h1 {
   font-size: 65px;
@@ -117,10 +116,10 @@ Hero Section
   background-color: var(--light-background-color);
   color: var(--font-color);
 }
-.match-links-btn:hover {
+/* .match-links-btn:hover {
   background-color: ffa8a8;
   color: var(--font-color);
-}
+} */
 /* Upcoming Events */
 .upcoming-matches {
   flex: 1;
