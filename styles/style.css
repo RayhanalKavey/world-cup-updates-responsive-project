@@ -84,6 +84,25 @@ body {
    Upcoming Matches Section 
     ============ */
 .matches {
+  display: flex;
+}
+/* Aside */
+.match-links {
+  display: flex;
+  flex-direction: column;
+  width: 312px;
+  /* height: 312px; */
+  border-radius: 10px;
+  background-color: var(--background-color);
+  align-self: flex-start;
+  padding: 30px;
+}
+/* Upcoming Events */
+.upcoming-matches {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
 }
 .match {
   border: 2px solid lawngreen;
