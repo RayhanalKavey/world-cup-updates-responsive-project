@@ -9,3 +9,25 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+/* ============
+    Reuseable Styles 
+    ============ */
+.container {
+  max-width: 1321px;
+  margin: 0 auto;
+}
+/* ============
+    Hero Section 
+    ============ */
+.hero {
+  display: flex;
+  background-color: rgba(22, 22, 22);
+  border-radius: 30px;
+}
+.hero-info {
+  width: 50%;
+  background-color: rgb(196, 131, 131);
+}
+.hero-info img {
+  width: 100%;
+}
