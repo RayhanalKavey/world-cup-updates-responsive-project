@@ -230,6 +230,7 @@ Hero Section
   align-items: center;
   justify-content: center;
   gap: 8px;
+  text-align: center;
 }
 .fa-brands {
   height: 30px;
