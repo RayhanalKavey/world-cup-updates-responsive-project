@@ -1,6 +1,12 @@
 /* Font Montserrat*/
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+:root {
+  --background-color: rgb(22, 22, 22);
+  --light-font-color: rgba(255, 255, 255);
+  --button-color: rgba(221, 0, 0);
+  --font-color: rgb(22, 22, 22);
+}
 * {
   margin: 0;
   padding: 0;
@@ -10,15 +16,11 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   line-height: 1;
+  color: var(--font-color);
 }
 /* ============
     Reuseable Styles 
     ============ */
-:root {
-  --background-color: rgb(22, 22, 22);
-  --light-font-color: rgba(255, 255, 255);
-  --button-color: rgba(221, 0, 0);
-}
 .container {
   max-width: 1300px;
   margin: 0 auto;
@@ -65,6 +67,12 @@ body {
   line-height: 1.6;
   width: 80%;
 }
+.fa-angle-right {
+  display: inline-block;
+  color: var(--light-font-color);
+  height: 24px;
+  width: 24px;
+}
 .hero img {
   /* border: 2px solid red; */
   width: 130%;
@@ -78,4 +86,30 @@ body {
 .matches {
 }
 .match {
+  border: 2px solid lawngreen;
+  display: flex;
+  flex-direction: column;
+}
+.match img {
+  width: 312px;
+  height: 175px;
+}
+.match-info {
+  padding: 20px;
+}
+.match-info a {
+  text-decoration: none;
+  color: var(--font-color);
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 5px;
+  padding: 4px 16px;
+  border: 1px solid var(--font-color);
+  margin-bottom: 15px;
+}
+.match-info p {
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 18px;
 }
