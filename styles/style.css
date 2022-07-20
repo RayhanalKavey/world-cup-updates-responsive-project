@@ -224,3 +224,15 @@ Hero Section
   text-decoration: none;
   color: #b9b9b9;
 }
+.social-icon {
+  display: flex;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.fa-brands {
+  height: 30px;
+  width: 30px;
+  color: #4267b2;
+}
