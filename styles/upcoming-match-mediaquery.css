@@ -1,0 +1,114 @@
+/* Tablet Version */
+@media screen and (min-width: 535px) and (max-width: 896px) {
+  .container {
+    width: 734px;
+  }
+  .hero {
+    padding: 61px 76px 0 76px;
+    margin-bottom: 70px;
+  }
+  .hero img {
+    width: 100%;
+  }
+  .hero-info {
+    margin-bottom: 61px;
+  }
+  .hero-info h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .hero-info p {
+    font-size: 13px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    width: 80%;
+  }
+  /* upcoming matches */
+  .matches {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  .match-links {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    background-color: var(--light-background-color);
+    color: var(--font-color);
+  }
+  .match-links-btn {
+    border: 1px solid rgba(232, 232, 232);
+    font-size: 20px;
+  }
+  .upcoming-matches {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* footer section */
+  .footer .container {
+    padding: 70px 0;
+  }
+  .footer hr {
+    margin: 30px auto;
+    width: 734px;
+  }
+  .footer-links {
+    flex-wrap: wrap;
+  }
+}
+/* Mobile Version */
+@media screen and (max-width: 534px) {
+  .container {
+    width: 334px;
+  }
+  .hero {
+    flex-direction: column;
+  }
+  .hero-info {
+    margin-bottom: 21px;
+  }
+  .hero-info h1 {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  .hero-info p {
+    font-size: 13px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    width: 80%;
+  }
+  .hero-btn {
+    font-size: 16px;
+  }
+  /* upcoming matches */
+  .matches {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .match-links {
+    background-color: var(--light-background-color);
+    color: var(--font-color);
+    flex-direction: column;
+  }
+  .match-links-btn {
+    border: 1px solid rgba(232, 232, 232);
+  }
+  .hero img {
+    width: 100%;
+  }
+  .upcoming-matches {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* footer */
+  .footer .container {
+    padding: 24px 0;
+  }
+  .footer hr {
+    margin: 24px auto;
+    width: 335px;
+  }
+  .footer-links {
+    flex-direction: column;
+    align-items: center;
+  }
+}

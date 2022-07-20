@@ -130,43 +130,33 @@ Hero Section
 .match {
   box-shadow: 1px 1px 4px #999;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   border-radius: 10px;
-}
-.match img {
-  width: 312px;
-  height: 175px;
-}
-.match-info {
-  padding: 20px;
-}
-.transfer-info {
-  display: flex;
-  gap: 30px;
-  align-items: center;
-}
-.transfer-info .fa-regular {
-  margin-right: 10px;
-}
-.fa-regular {
-  height: 18px;
-  width: 18px;
-}
-.match-info a {
-  text-decoration: none;
   color: var(--font-color);
-  display: inline-block;
-  font-size: 16px;
-  font-weight: 500;
-  border-radius: 5px;
-  padding: 4px 16px;
-  border: 1px solid var(--font-color);
-  margin-bottom: 15px;
+  padding: 53px 30px;
 }
-.match-info p {
+/* new change */
+.event-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-bottom: 20px;
+}
+.event-img img {
+  width: 93px;
+  height: 56px;
+}
+.match h2 {
+  font-size: 20px;
   font-weight: 600;
-  font-size: 18px;
+  margin-bottom: 4px;
+}
+.match p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(77, 77, 77);
 }
 /* ==============
    Footer Section 
