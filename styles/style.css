@@ -86,6 +86,9 @@ Hero Section
 }
 
 .hero-btn.btn-animation:hover {
+  background-color: #ff6b6b;
+}
+.hero-btn.btn-animation:active {
   background-color: #ffa8a8;
   color: var(--font-color);
 }
@@ -125,10 +128,10 @@ Hero Section
   background-color: var(--light-background-color);
   color: var(--font-color);
 }
-/* .match-links-btn:hover {
-  background-color: ffa8a8;
-  color: var(--font-color);
-} */
+.match-links-btn.current-page {
+  background-color: var(--button-color);
+  color: var(--light-font-color);
+}
 /* Upcoming Events */
 .upcoming-matches {
   flex: 1;
