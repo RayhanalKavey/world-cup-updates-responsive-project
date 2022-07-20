@@ -69,12 +69,14 @@ Hero Section
   width: 24px;
 }
 .hero-btn {
+  cursor: pointer;
   border: none;
-  color: #fff;
   background-color: var(--button-color);
+  color: #fff;
   font-size: 20px;
   padding: 16px 25px;
   border-radius: 5px;
+  transition: all 0.2s linear;
 }
 .hero-link {
   display: flex;
@@ -82,7 +84,14 @@ Hero Section
   gap: 10px;
   color: var(--light-font-color);
 }
+
+.hero-btn.btn-animation:hover {
+  background-color: #ffa8a8;
+  color: var(--font-color);
+}
+
 .arrow-icon {
+  display: inline-block;
   height: 18px;
   width: 18px;
 }
