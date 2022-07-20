@@ -180,6 +180,19 @@ Hero Section
   font-weight: 600;
   font-size: 18px;
 }
+.view-all-btn {
+  border: none;
+  display: inline-block;
+  padding: 12px 29px;
+  background-color: var(--button-color);
+  color: var(--light-font-color);
+  /* width: 50%; */
+}
+.view-all {
+  display: none;
+  grid-column: 1/-1;
+  justify-self: center;
+}
 /* ==============
    Footer Section 
    ============== */

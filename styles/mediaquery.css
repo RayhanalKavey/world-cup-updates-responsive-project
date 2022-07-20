@@ -5,7 +5,7 @@
   }
   .hero {
     padding: 61px 76px 0 76px;
-    margin-bottom: 70px;
+    margin-bottom: 60px;
   }
   .hero img {
     width: 100%;
@@ -42,6 +42,10 @@
   }
   .upcoming-matches {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .view-all {
+    display: block;
+    margin-top: 50px;
   }
   /* footer section */
   .footer .container {
