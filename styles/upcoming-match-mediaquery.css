@@ -1,7 +1,7 @@
 /* Tablet Version */
 @media screen and (min-width: 535px) and (max-width: 896px) {
   .container {
-    width: 734px;
+    max-width: 46rem;
   }
   .hero {
     padding: 61px 76px 0 76px;
@@ -21,7 +21,6 @@
     font-size: 13px;
     margin-bottom: 30px;
     line-height: 1.6;
-    width: 80%;
   }
   /* upcoming matches */
   .matches {
@@ -69,13 +68,18 @@
 /* Mobile Version */
 @media screen and (max-width: 534px) {
   .container {
-    width: 334px;
+    max-width: 21rem;
   }
   .hero {
     flex-direction: column;
   }
   .hero-info {
     margin-bottom: 21px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   .hero-info h1 {
     font-size: 22px;
