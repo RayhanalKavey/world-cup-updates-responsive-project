@@ -1,116 +1,9 @@
-/* ============
-Hero Section 
-============ */
-.hero {
-  display: flex;
-  background-color: var(--background-color);
-  color: var(--light-font-color);
-  justify-content: center;
-  align-items: center;
-  gap: 24px;
-  border-radius: 30px;
-  padding-top: 33px;
-  margin-bottom: 130px;
-}
-.hero-info {
-  width: 50%;
-  margin-bottom: 112px;
-}
-.hero-info h1 {
-  font-size: 65px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  letter-spacing: -0.6px;
-  line-height: 1.2;
-}
-.hero-info p {
-  font-size: 16px;
-  margin-bottom: 30px;
-  line-height: 1.6;
-  width: 80%;
-}
-.fa-angle-right {
-  display: inline-block;
-  color: var(--light-font-color);
-  height: 24px;
-  width: 24px;
-}
-.hero-btn {
-  cursor: pointer;
-  border: none;
-  background-color: var(--button-color);
-  color: #fff;
-  font-size: 20px;
-  padding: 16px 25px;
-  border-radius: 5px;
-  transition: all 0.2s linear;
-}
-.hero-link {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  color: var(--light-font-color);
-}
-
-.hero-btn.btn-animation:hover {
-  background-color: #f59f00;
-  position: relative;
-  top: -1px;
-  left: -1px;
-}
-.hero-btn.btn-animation:active {
-  background-color: #ffec99;
-  color: var(--font-color);
-  border: none;
-  top: 0;
-  left: 0;
-}
-.arrow-icon {
-  display: inline-block;
-  height: 18px;
-  width: 18px;
-}
-.hero img {
-  width: 130%;
-}
 /* =========================
    Upcoming Matches Section 
    ========================= */
-.matches {
-  display: flex;
-  gap: 24px;
-  margin-bottom: 130px;
-}
-/* Aside */
-.match-links {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  width: 312px;
-  /* height: 312px; */
-  border-radius: 10px;
-  background-color: var(--background-color);
-  align-self: flex-start;
-  padding: 30px;
-  text-align: center;
-  font-weight: 500;
-}
-.match-links-btn {
-  padding: 17px 39px;
-  background-color: var(--light-background-color);
-  color: var(--font-color);
-}
-.match-links-btn.current-page {
-  background-color: var(--button-color);
-  color: var(--light-font-color);
-}
-/* Upcoming Events */
-.upcoming-matches {
-  flex: 1;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-}
+
+/* Upcoming Events new change */
+
 .match {
   box-shadow: 1px 1px 4px #999;
   display: flex;
@@ -121,7 +14,6 @@ Hero Section
   color: var(--font-color);
   padding: 53px 30px;
 }
-/* new change */
 .event-img {
   display: flex;
   gap: 22px;
@@ -136,41 +28,10 @@ Hero Section
 .match h2 {
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 4px;
+  margin-bottom: 10px;
 }
 .match p {
   font-size: 16px;
   font-weight: 400;
   color: rgba(77, 77, 77);
-}
-/* ==============
-   Footer Section 
-   ============== */
-.footer {
-  background-color: var(--background-color);
-  color: var(--light-font-color);
-}
-.footer .container {
-  padding: 130px 0;
-}
-.footer h1 {
-  font-size: 40px;
-  font-weight: 600;
-  text-align: center;
-}
-.footer hr {
-  margin: 50px auto;
-  width: 1270px;
-  height: 0;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.footer-links {
-  display: flex;
-  gap: 40px;
-  justify-content: center;
-}
-.footer-link {
-  text-decoration: none;
-  color: #b9b9b9;
 }
