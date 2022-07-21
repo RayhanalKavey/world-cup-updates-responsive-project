@@ -10,7 +10,7 @@
   .hero img {
     width: 100%;
   }
-  .hero-info {
+  .hero-info-up {
     margin-bottom: 61px;
     width: 50%;
   }
@@ -81,7 +81,7 @@
     padding: 10px;
   }
   .hero-info {
-    margin: 21 70px;
+    margin: 21px 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;

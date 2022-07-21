@@ -94,7 +94,6 @@ Hero Section
   flex-direction: column;
   gap: 30px;
   width: 312px;
-  /* height: 312px; */
   border-radius: 10px;
   background-color: var(--background-color);
   align-self: flex-start;
@@ -165,7 +164,6 @@ Hero Section
   padding: 12px 29px;
   background-color: var(--button-color);
   color: var(--font-color);
-  /* width: 50%; */
 }
 .view-all {
   display: none;

@@ -3,16 +3,17 @@
   .container {
     max-width: 46rem;
   }
-  .hero {
-    padding: 61px 76px 0 76px;
+  .hero-main {
+    padding: 61px 50px 0 76px;
+    gap: 0;
     margin-bottom: 60px;
   }
-  .hero img {
+  .hero-img-main {
     width: 100%;
   }
-  .hero-info {
-    margin-bottom: 61px;
-    width: 50%;
+  .hero-info-main {
+    /* margin-bottom: 0; */
+    width: 65%;
   }
   .hero-info h1 {
     font-size: 40px;
@@ -76,9 +77,10 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 70px;
   }
-
+  .hero-info-main {
+    margin-bottom: 0px;
+  }
   .hero-info h1 {
     font-size: 22px;
     margin-bottom: 8px;
