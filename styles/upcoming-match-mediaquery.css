@@ -12,6 +12,7 @@
   }
   .hero-info {
     margin-bottom: 61px;
+    width: 50%;
   }
   .hero-info h1 {
     font-size: 40px;
@@ -53,6 +54,10 @@
     font-size: 14px;
     color: rgba(77, 77, 77);
   }
+  .view-all {
+    display: block;
+    margin-top: 50px;
+  }
   /* footer section */
   .footer .container {
     padding: 70px 0;
@@ -72,9 +77,11 @@
   }
   .hero {
     flex-direction: column;
+    margin-bottom: 70px;
+    padding: 10px;
   }
   .hero-info {
-    margin-bottom: 21px;
+    margin: 21 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,7 +99,7 @@
     width: 80%;
   }
   .hero-btn {
-    font-size: 16px;
+    font-size: 12px;
   }
   .hero img {
     width: 100%;
@@ -136,5 +143,8 @@
   .footer-links {
     flex-direction: column;
     align-items: center;
+  }
+  .social-icon {
+    display: block;
   }
 }

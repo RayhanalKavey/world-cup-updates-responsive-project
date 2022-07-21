@@ -31,7 +31,7 @@ Hero Section
 }
 .fa-angle-right {
   display: inline-block;
-  color: var(--light-font-color);
+  color: var(--font-color);
   height: 24px;
   width: 24px;
 }
@@ -49,7 +49,7 @@ Hero Section
   display: flex;
   align-items: center;
   gap: 10px;
-  color: var(--light-font-color);
+  color: var(--font-color);
 }
 
 .hero-btn.btn-animation:hover {
@@ -109,7 +109,7 @@ Hero Section
 }
 .match-links-btn.current-page {
   background-color: var(--button-color);
-  color: var(--light-font-color);
+  color: var(--font-color);
 }
 /* Upcoming Events */
 .upcoming-matches {
@@ -164,7 +164,7 @@ Hero Section
   display: inline-block;
   padding: 12px 29px;
   background-color: var(--button-color);
-  color: var(--light-font-color);
+  color: var(--font-color);
   /* width: 50%; */
 }
 .view-all {
@@ -176,8 +176,8 @@ Hero Section
    Footer Section 
    ============== */
 .footer {
-  background-color: var(--background-color);
-  color: var(--light-font-color);
+  background-color: var(--dark-background-color);
+  color: #a6ffab;
 }
 .footer .container {
   padding: 130px 0;
@@ -201,7 +201,7 @@ Hero Section
 }
 .footer-link {
   text-decoration: none;
-  color: #b9b9b9;
+  color: #74bd78;
 }
 .social-icon {
   display: flex;
