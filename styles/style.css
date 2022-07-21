@@ -9,11 +9,11 @@ Hero Section
   align-items: center;
   gap: 24px;
   border-radius: 30px;
-  padding-top: 33px;
+  padding: 33px 106px 0 106px;
   margin-bottom: 130px;
 }
 .hero-info {
-  width: 50%;
+  width: 65%;
   margin-bottom: 112px;
 }
 .hero-info h1 {
@@ -53,11 +53,17 @@ Hero Section
 }
 
 .hero-btn.btn-animation:hover {
-  background-color: #ff6b6b;
+  background-color: #f59f00;
+  position: relative;
+  top: -1px;
+  left: -1px;
 }
 .hero-btn.btn-animation:active {
-  background-color: #ffa8a8;
+  background-color: #ffec99;
   color: var(--font-color);
+  border: none;
+  top: 0;
+  left: 0;
 }
 
 .arrow-icon {
@@ -66,7 +72,7 @@ Hero Section
   width: 18px;
 }
 .hero img {
-  width: 130%;
+  width: 100%;
 }
 /* =========================
    Upcoming Matches Section 

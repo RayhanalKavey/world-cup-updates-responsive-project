@@ -53,13 +53,18 @@ Hero Section
 }
 
 .hero-btn.btn-animation:hover {
-  background-color: #ff6b6b;
+  background-color: #f59f00;
+  position: relative;
+  top: -1px;
+  left: -1px;
 }
 .hero-btn.btn-animation:active {
-  background-color: #ffa8a8;
+  background-color: #ffec99;
   color: var(--font-color);
+  border: none;
+  top: 0;
+  left: 0;
 }
-
 .arrow-icon {
   display: inline-block;
   height: 18px;

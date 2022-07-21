@@ -2,11 +2,11 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 :root {
-  --background-color: rgb(22, 22, 22);
+  --background-color: #a5d8ff;
   --light-background-color: rgba(255, 255, 255);
-  --light-font-color: rgba(255, 255, 255);
+  --light-font-color: #083119;
   --button-color: #f1c40f;
-  --font-color: rgb(22, 22, 22);
+  --font-color: #083119;
 }
 * {
   margin: 0;
